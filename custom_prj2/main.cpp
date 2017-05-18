@@ -8,15 +8,15 @@ using namespace std;
 void main()
 {
 	setlocale(LC_ALL, "Russian");
+	srand(time(NULL));
 
-	double n = 3.14;
+	int d[16];
 
-	double *p = &n;
+	for (int i(0); i < 16; i++) {
+		d[i] = 10 - rand() % 10 + 1;
+		cout << "D[" << i << "]=\t[" << d[i] << "]\t0x" << &d[i] << endl;
+	}
 
-	cout << p << endl;
-
-	cout << &n << endl;
-
-
+	cout << "sizeD= " << sizeof(d) << endl;
 	_getch();
 }
