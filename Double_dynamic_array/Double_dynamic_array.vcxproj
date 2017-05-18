@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8F787FAF-C165-4C67-B6FA-0E6574EA9FE4}</ProjectGuid>
-    <RootNamespace>custom_prj</RootNamespace>
+    <ProjectGuid>{E566DFA5-0020-424F-8544-F257CE853950}</ProjectGuid>
+    <RootNamespace>Double_dynamic_array</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
