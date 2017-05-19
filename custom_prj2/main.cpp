@@ -22,8 +22,10 @@ void main()
 
 	cout << "d\t" << d << endl;
 	cout << "&d\t" << &d << endl << endl;
-	cout << "&d[0]\t" << &d[0] << endl;
-	cout << "&d[1]\t" << &d[1] << endl;
+	cout << "d[0]\t" << d[0] << endl;
+	cout << "&d[0]\t" << &d[0] << endl << endl;
+	cout << "d[1]\t" << d[1] << endl;
+	cout << "&d[1]\t" << &d[1] << endl << endl;
 
 	cout << "p\t" << p << endl;
 	cout << "*p\t" << *p << endl << endl;
