@@ -14,9 +14,27 @@ void main()
 
 	for (int i(0); i < 16; i++) {
 		d[i] = (double)i;
-		cout << "D[" << i << "]=\t" << &d[i] << endl;
+
 	}
 
-	cout << "sizeD= " << sizeof(d) << endl;
+	double *p = d;
+
+
+	cout << "d\t" << d << endl;
+	cout << "&d\t" << &d << endl << endl;
+	cout << "&d[0]\t" << &d[0] << endl;
+	cout << "&d[1]\t" << &d[1] << endl;
+
+	cout << "p\t" << p << endl;
+	cout << "*p\t" << *p << endl << endl;
+
+	p++;
+
+	cout << "p++\t" << p << endl;
+	cout << "*p++\t" << *p << endl;
+
+
+	
+
 	_getch();
 }
